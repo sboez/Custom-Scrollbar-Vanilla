@@ -1,4 +1,5 @@
 .scrollbar
+    position: relative
     display: flex
     justify-content: center
     height: 1px
@@ -6,10 +7,12 @@
     width: 300px
 
 .icon-cursor
-    margin-top: -18.5px
+    position: absolute
+    top: -18px
     font-size: 35px
     transform: scale(1)
     transition: transform 0.3s ease-out
+    color: purple
     &:hover
         transform: scale(1.2)
         transition: transform 0s
