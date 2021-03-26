@@ -16,7 +16,7 @@
 	"bugs": {
 		"url": "https://github.com/sboez/Custom-Scrollbar-Vanilla/issues"
 	},
-	"homepage": "https://github.com/sboez/Custom-Scrollbar-Vanilla#readme",
+	"homepage": "https://sboez.github.io/Custom-Scrollbar-Vanilla/",
 	"dependencies": {
 		"@babel/core": "^7.12.16",
 		"@babel/preset-env": "^7.12.11",
