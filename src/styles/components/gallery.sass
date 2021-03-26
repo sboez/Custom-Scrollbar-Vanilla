@@ -1,0 +1,25 @@
+.gallery
+    display: flex
+    width: 100vw
+    margin: 20vh 0 50px 0
+    align-items: flex-start
+    overflow-y: hidden
+    scroll-snap-type: none
+    z-index: 200
+    &__item
+        display: inline-block
+        margin-right: 50px
+        padding-right: 50px
+        scroll-snap-align: center
+        list-style-type: none
+        img
+            width: 300px
+            height: 300px
+            object-fit: contain
+
+// Transparent scrollbar
+.gallery
+    -ms-overflow-style: none  // IE and Edge
+    scrollbar-width: none  // Firefox
+.gallery::-webkit-scrollbar // Chrome, Safari and Opera
+    display: none

@@ -23,3 +23,9 @@ npm run dev
 ```shell
 npm run build
 ```
+
+# Sources
+
+-   [IcoMoon](https://icomoon.io/)
+-   [TinyPNG](https://tinyjpg.com/)
+-   [Gradients Background](https://uigradients.com/)
