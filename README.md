@@ -12,7 +12,7 @@ I developed a _fake cursor/scrollbar_ from scratch with CSS and JS and added tra
 
 Here it's a simple border with an arrow icon but you can custom as you want, the script keep the same.
 
-![screenshot](https://user-images.githubusercontent.com/23494780/112725808-513ff600-8f1a-11eb-9664-86f32fbaa464.mov)
+![scrollbarjs](https://user-images.githubusercontent.com/23494780/112726007-65d0be00-8f1b-11eb-8e35-9236ad083d62.gif)
 
 # Usage
 
