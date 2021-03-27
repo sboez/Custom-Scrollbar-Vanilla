@@ -8,9 +8,11 @@ I needed to have a CSS images gallery with a personalized cursor/scrollbar. The 
 
 ### Solution :nerd_face:
 
-I developed a _fake cursor/scrollbar_ from scratch with CSS and JS and added transparence to the native scrollbar.
+I developed a _fake cursor/scrollbar_ from scratch with CSS and JS and added transparence to the native scrollbar. It's also possible to drag.
 
 Here it's a simple border with an arrow icon but you can custom as you want, the script keep the same.
+
+![screenshot](https://user-images.githubusercontent.com/23494780/112725808-513ff600-8f1a-11eb-9664-86f32fbaa464.mov)
 
 # Usage
 
