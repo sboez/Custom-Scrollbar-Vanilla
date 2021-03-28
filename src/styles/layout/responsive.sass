@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px)
+    .gallery
+        margin: 0
+        padding: 0
+        height: 100vh
+        flex-direction: column
+        justify-content: start
+        overflow-y: scroll
+        overflow-x: hidden
+        &__item
+            padding: 0
+            margin-bottom: 5vh
+            &:first-child
+                margin-top: 10vh
+            &:last-child
+                margin-bottom: 10vh
+    .scrollbar
+        display: none
