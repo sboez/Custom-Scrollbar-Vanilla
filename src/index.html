@@ -8,13 +8,24 @@
 	</head>
 	<body>
 		<div class="container">
-			<ul class="gallery" onmousedown="return false">
+			<ul
+				class="gallery"
+				onmousedown="return false"
+				data-modal-image="../src/assets/images/grogu/grogu_01.jpg"
+			>
 				<!-- lists are created in App.js -->
 			</ul>
 
 			<ol class="scrollbar">
 				<span class="icon-cursor"></span>
 			</ol>
+		</div>
+
+		<div class="modal">
+			<div class="btn-close">
+				<i class="icon-cross"></i>
+			</div>
+			<img class="modal__content" />
 		</div>
 	</body>
 </html>

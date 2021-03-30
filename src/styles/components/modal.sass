@@ -1,0 +1,27 @@
+.modal 
+    position: fixed
+    left: 0
+    top: 0
+    display: none
+    width: 100%
+    height: 100%
+    overflow: auto
+    background-color: rgba(0, 0, 0, 0.8)
+    z-index: 100
+    &__content
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 100% 
+        max-width: 500px
+        max-height: 500px
+        margin: auto
+        border: 2px solid $grey
+
+.btn-close
+    margin-top: 20vh
+    text-align: center
+    .icon-cross
+        color: white
+        font-size: 20px
