@@ -15,24 +15,17 @@ export default class Modal {
         const boxes = [...document.querySelectorAll('img')];
 
         for (const box of boxes) {
-            if (!this.isMobileDevice()) {
-                box.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    e.preventDefault();
+            box.addEventListener('click', (e) => {
+                e.stopPropagation();
+                e.preventDefault();
 
-                    this.modal.style.display = 'block';
-                    modalImg.src = box.src;
-                });
-            }
+                this.modal.style.display = 'block';
+                modalImg.src = box.src;
+            });
         }
 
         modalClose.addEventListener('click', () => {
             this.modal.style.display = 'none';
         });
-    }
-
-    isMobileDevice() {
-        if (window.matchMedia("(max-width: 600px)").matches) return true
-        else return false;
     }
 }
